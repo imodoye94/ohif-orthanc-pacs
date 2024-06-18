@@ -104,3 +104,8 @@ proxy_set_header Authorization "Basic aHlwZXI6bWFwZHI=";  # Replace with base64-
 ```bash
 docker-compose up -d
 ```
+
+### Run this command everytime you restart the containers to change the Viewer HTML Title
+```bash
+sudo docker exec -it --user root ohif sh -c "sed -i 's/<title>OHIF Viewer<\/title>/<title>Mediverse DICOM Viewer<\/title>/' /usr/share/nginx/html/index.html"
+```
