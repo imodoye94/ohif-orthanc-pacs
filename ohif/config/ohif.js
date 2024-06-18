@@ -6,7 +6,7 @@ window.config = {
     dicomUploadComponent:
       "@ohif/extension-cornerstone.customizationModule.cornerstoneDicomUploadComponent",
   },
-  showStudyList: true,
+  showStudyList: false,
   maxNumberOfWebWorkers: 3,
   showWarningMessageForCrossOrigin: true,
   showCPUFallbackMessage: true,
@@ -37,7 +37,7 @@ window.config = {
         useBulkDataURI: false,
         supportsFuzzyMatching: true,
         supportsWildcard: true,
-        dicomUploadEnabled: true, // Set to true to enable DICOM upload
+        dicomUploadEnabled: false, // Set to true to enable DICOM upload
         singlepart: "bulkdata,video,pdf",
       },
     },
