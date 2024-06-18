@@ -28,7 +28,7 @@ docker network create proxy
 ### Clone This Repo
 
 ```bash
-git clone https://github.com/hyper4saken/ohif-orthanc.git
+git clone https://github.com/imodoye94/ohif-orthanc-pacs.git
 cd ohif-orthanc-pacs
 ```
 
