@@ -1,5 +1,5 @@
 {
-  "Name": "M A P D R",
+  "Name": "M E D I V E R S E",
   "StorageDirectory": "/var/lib/orthanc/db",
   "StorageCompression": true,
   "MaximumStorageSize": 0,
@@ -32,7 +32,7 @@
   "SslTrustedClientCertificates": "trustedClientCertificates.pem",
   "AuthenticationEnabled": false,
   "RegisteredUsers": {
-    "mapdr": "mapdr"
+    "user": "user"
   },
   "DicomTlsEnabled": false,
   "DicomTlsRemoteCertificateRequired": true,
