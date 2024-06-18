@@ -85,8 +85,7 @@ nvim ./orthanc/config/orthanc.json
 
 ### Create generate the base64-encoded string
 ```bash
-echo -n 'hyper:mapdr' | base64.
-aHlwZXI6bWFwZHI=
+echo -n 'hyper:mapdr' | base64
 ```
 
 ### Update Nginx config for Ohif to pass http auth for accessing Orthanc
