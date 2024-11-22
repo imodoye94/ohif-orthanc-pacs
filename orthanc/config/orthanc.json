@@ -17,7 +17,7 @@
   "WebDavDeleteAllowed": false,
   "WebDavUploadAllowed": true,
   "DicomServerEnabled": true,
-  "DicomAet": "MAPDR",
+  "DicomAet": "MEDIVERSE",
   "DicomCheckCalledAet": true,
   "DicomPort": 4242,
   "DefaultEncoding": "Latin1",
@@ -32,7 +32,7 @@
   "SslTrustedClientCertificates": "trustedClientCertificates.pem",
   "AuthenticationEnabled": false,
   "RegisteredUsers": {
-    "user": "user"
+    "userx": "@password#1234-x"
   },
   "DicomTlsEnabled": false,
   "DicomTlsRemoteCertificateRequired": true,
