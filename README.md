@@ -102,7 +102,7 @@ proxy_set_header Authorization "Basic aHlwZXI6bWFwZHI=";  # Replace with base64-
 
 ### Spin up containers
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 ### Run this command everytime you restart the containers to change the Viewer HTML Title
