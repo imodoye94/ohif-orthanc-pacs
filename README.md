@@ -79,19 +79,19 @@ nano ./orthanc/config/orthanc.json
 ```json
    "AuthenticationEnabled": true,
   "RegisteredUsers": {
-    "hyper": "mapdr"
+    "userx": "@password#1234-x"
   },
 ```
 
 ### Create generate the base64-encoded string
 ```bash
-echo -n 'hyper:mapdr' | base64
+echo -n 'userx:@password#1234-x' | base64
 ```
 
 ### Update Nginx config for Ohif to pass http auth for accessing Orthanc
 Edit Nginx reverse proxy
 ```bash
-nvim ./ohif/nginx/ohif.conf
+nano ./ohif/nginx/ohif.conf
 ```
 and paste base64-encoded user name and password
 
