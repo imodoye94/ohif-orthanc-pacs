@@ -91,7 +91,7 @@ echo -n 'userx:@password#1234-x' | base64
 ### Update Nginx config for Ohif to pass http auth for accessing Orthanc
 Edit Nginx reverse proxy
 ```bash
-nano ./ohif/nginx/ohif.conf
+nano ./ohif/nginx/ohif-nginx.conf
 ```
 and paste base64-encoded user name and password
 
