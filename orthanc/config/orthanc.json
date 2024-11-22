@@ -30,7 +30,7 @@
   "SslMinimumProtocolVersion": 4,
   "SslVerifyPeers": false,
   "SslTrustedClientCertificates": "trustedClientCertificates.pem",
-  "AuthenticationEnabled": false,
+  "AuthenticationEnabled": true,
   "RegisteredUsers": {
     "userx": "@password#1234-x"
   },
